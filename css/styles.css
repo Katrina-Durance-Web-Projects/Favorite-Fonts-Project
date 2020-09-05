@@ -1,0 +1,204 @@
+body {
+    padding: 10px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+}
+
+/* .dark-mode {
+    background-color: black;
+    color: white;
+} */
+
+.header {
+    padding: 1rem;
+}
+
+.header-title {
+    display: inline-block;
+    font-family: Helvetica;
+    font-size: 1.4rem;
+    left: 3rem;
+    position: relative;
+}
+
+.header-links {
+    display: inline-block;
+    left: 40rem;
+    position: relative;
+}
+
+.header-catalog {
+    display: inline-block;
+    font-size: 1.4rem;
+}
+
+.header-featured {
+    display: inline-block;
+    font-size: 1.4rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+}
+
+.header-articles {
+    display: inline-block;
+    font-size: 1.4rem;
+    padding-right: 3rem;
+}
+
+.header-about {
+    font-size: 1.4rem;
+    display: inline-block;
+}
+
+.toolbar {
+    border: solid;
+    border-color: rgb(198, 203, 211);
+    border-radius: 20px;
+    padding-bottom: 8px;
+    text-align: center;
+}
+
+#mag-glass-image {
+    display: inline-block;
+    height: .9rem;
+    width: .9rem;
+}
+
+#font-search {
+    display: inline-block;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.pipe {
+    color: rgb(198, 203, 211);
+    display: inline-block;
+    font-size: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#user-input {
+    display: inline-block;
+}
+
+#input-label {
+    display: inline-block;
+    font-size: 1.2rem;
+}
+
+#pixel-sizes {
+    display: inline-block;
+    font-size: 1.2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#dark-mode-button {
+    display: inline-block;
+}
+
+#light-mode-button {
+    display: inline-block;
+}
+
+#reset {
+    border-radius: 50%;
+    display: inline-block;
+    padding-left: 1rem;
+}
+
+#reset-arrow-image {
+    display: inline-block;
+    height: .9rem;
+    width: .9rem;
+}
+
+.font-card-div {
+    /* border-color: mediumslateblue;
+    border-style: solid;
+    border-width: 1px; */
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+.font-card {
+    border-color: rgb(198, 203, 211);
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    display: inline-block;
+    height: 15rem;
+    margin: 1rem;
+    padding: 1rem;
+    position: relative;
+    top: 2rem;
+    width: 15rem;
+}
+
+.font-name {
+    font-family: Arial;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding-bottom: .5rem;
+}
+
+.font-creator {
+    color: gray;
+    font-family: Arial;
+    font-size: 1rem;
+    font-weight: 500;
+    word-wrap: normal;
+    padding-bottom: 2rem;
+}
+
+#preview-text-cambria {
+    font-family: Cambria; 
+}
+
+#preview-text-calibri {
+    font-family: Calibri;
+}
+
+#preview-text-georgia {
+    font-family: Georgia;
+}
+
+#preview-text-arial {
+    font-family: Arial;
+}
+
+#preview-text-times {
+    font-family: 'Times New Roman';
+}
+
+#preview-text-papyrus {
+    font-family: Papyrus; 
+}
+
+#preview-text-courier {
+    font-family: Courier;
+}
+
+#preview-text-tahoma {
+    font-family: Tahoma;
+}
+
+#preview-text-helvetica {
+    font-family: Helvetica;
+}
+
+#preview-text-impact {
+    font-family: Impact;
+}
+
+footer {
+    font-size: .8rem;
+    text-align: center;
+}
+
+#icon-attribution {
+    font-size: .8rem;
+}
